@@ -5,7 +5,7 @@ body{
     align-items: center;
     position: absolute;
     inset: 0;
-    background-color: black;
+   background-color: rgb(255, 77, 77);
     .container{
         height: 200px;
         width: 200px;
@@ -21,4 +21,8 @@ p{
     margin: 2px;
     font-size: 30px;
     font-family: 'Qahiri', sans-serif;
+}
+.container{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4),
+     -10px -10px 20px  rgba(255, 255, 255, 0.4);
 }

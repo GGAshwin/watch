@@ -11,7 +11,7 @@ body {
           align-items: center;
   position: absolute;
   inset: 0;
-  background-color: black;
+  background-color: #ff4d4d;
 }
 
 body .container {
@@ -38,5 +38,10 @@ p {
   margin: 2px;
   font-size: 30px;
   font-family: 'Qahiri', sans-serif;
+}
+
+.container {
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4), -10px -10px 20px rgba(255, 255, 255, 0.4);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4), -10px -10px 20px rgba(255, 255, 255, 0.4);
 }
 /*# sourceMappingURL=style.css.map */
